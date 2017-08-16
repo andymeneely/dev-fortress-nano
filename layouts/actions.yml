@@ -1,0 +1,58 @@
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3
+
+top_title:
+  font: Sans Bold 42
+  x: 75
+  y: 75
+  width: 675
+  hint: red
+
+top_desc:
+  font: Serif 24
+  x: 75
+  y: 150
+  height: 275
+  width: 675
+  hint: red
+
+top_next_month:
+  extends: top_desc
+  y: 425
+  height: 125
+
+bottom_title:
+  extends: top_title
+  x: 750
+  y: 1050
+  angle: 3.141 # pi/2
+
+bottom_desc:
+  extends: top_desc
+  x: 750
+  y: 975
+  angle: 3.141 # pi/2
+
+bottom_next_month:
+  extends: top_next_month
+  x: 750
+  y: 700
+  angle: 3.141 # pi/2
+
+version:
+  font: Sans 16
+  x: 725
+  y: 45
