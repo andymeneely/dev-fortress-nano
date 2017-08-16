@@ -15,11 +15,22 @@ safe:
   dash: 3 3
 
 top_title:
-  font: Sans Bold 42
+  font: Sans Bold 32
+  x: 150
+  y: 75
+  width: 600
+  height: 75
+  hint: gray
+  valign: middle
+
+top_cost:
+  font: Serif 42
   x: 75
   y: 75
-  width: 675
-  hint: red
+  width: 75
+  height: 75
+  align: center
+  hint: gray
 
 top_desc:
   font: Serif 24
@@ -27,15 +38,23 @@ top_desc:
   y: 150
   height: 275
   width: 675
-  hint: red
+  hint: gray
+  valign: middle
 
-top_next_month:
+top_rollover:
   extends: top_desc
+  align: center
   y: 425
   height: 125
 
 bottom_title:
   extends: top_title
+  x: 675
+  y: 1050
+  angle: 3.141 # pi/2
+
+bottom_cost:
+  extends: top_cost
   x: 750
   y: 1050
   angle: 3.141 # pi/2
@@ -46,8 +65,8 @@ bottom_desc:
   y: 975
   angle: 3.141 # pi/2
 
-bottom_next_month:
-  extends: top_next_month
+bottom_rollover:
+  extends: top_rollover
   x: 750
   y: 700
   angle: 3.141 # pi/2

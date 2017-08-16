@@ -1,0 +1,339 @@
+            ╭------------------------------------╮
+      Title | Write unit tests                   |
+      Class | Testing                            |
+      Level | I                                  |
+       Cost | 3                                  |
+Description | Your team write an automated test  |
+            | suite, which allow developers to c |
+            | heck their own work. This builds u |
+            | p a defensive mindset, and makes b |
+            | ig code changes easier to make lat |
+            | er on.                             |
+            | Cost is 5 if Base features are alr |
+            | eady developed, 6 for Exciting Fea |
+            | tures.                             |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Maintain unit tests                |
+      Class | Testing                            |
+      Level | II                                 |
+       Cost | 1                                  |
+Description | Your team is now in the habit of w |
+            | riting tests, so these are much ea |
+            | sier to write.                     |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Continuous integration             |
+      Class | Testing                            |
+      Level | III                                |
+       Cost | 1                                  |
+Description | You set up a build server that aut |
+            | omatically runs your unit tests af |
+            | ter every change, notifying develo |
+            | pers of potential problems early.  |
+   Rollover | BEFORE EXCITING FEATURES: You catc |
+            | h a lot of bugs in the base featur |
+            | e set. +1 Time                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Continuous integration II          |
+      Class | Testing                            |
+      Level | IV                                 |
+       Cost | 0                                  |
+Description | Your build server requires little  |
+            | maintenance at this point.         |
+   Rollover | BEFORE EXCITING FEATURES: You catc |
+            | h a lot of bugs in the base featur |
+            | e set. +2 Time                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Minimum viable product             |
+      Class | Features                           |
+      Level | I                                  |
+       Cost | 3                                  |
+Description | You build a prototype to prove its |
+            |  capability to investors.          |
+            | This is part of your routine devel |
+            | opment and you will have to do thi |
+            | s at some point.                   |
+   Rollover | Next month: +1 Time                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Develop base features              |
+      Class | Features                           |
+      Level | II                                 |
+       Cost | 4                                  |
+Description | You build out the main features of |
+            |  the system.                       |
+            | This is part of your routine devel |
+            | opment and you will have to do thi |
+            | s at some point.                   |
+   Rollover | Next month: +2 Time                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Develop exciting features          |
+      Class | Features                           |
+      Level | III                                |
+       Cost | 6                                  |
+Description | You develop features that separate |
+            |  your product from the competition |
+            | .                                  |
+            | This is part of your routine devel |
+            | opment and you will have to do thi |
+            | s at some point.                   |
+   Rollover | Next month: +3 Time                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Polishing features                 |
+      Class | Features                           |
+      Level | IV                                 |
+       Cost | 8                                  |
+Description | You prepare your product for wides |
+            | pread launch.                      |
+            | This is part of your routine devel |
+            | opment and you will have to do thi |
+            | s at some point.                   |
+   Rollover | Next month: +4 Time                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Risk assessment                    |
+      Class | Planning                           |
+      Level | I                                  |
+       Cost | 1                                  |
+Description | You document and discuss as a team |
+            |  the important assets your product |
+            |  is protecting, and how easy those |
+            |  assets might be to compromise.    |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Abuse and misuse cases             |
+      Class | Planning                           |
+      Level | II                                 |
+       Cost | 1                                  |
+Description | You explore your risks more by wri |
+            | ting and ranking potential comprom |
+            | ise scenarios.                     |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Threat model                       |
+      Class | Planning                           |
+      Level | III                                |
+       Cost | 2                                  |
+Description | A threat model is a detailed plann |
+            | ing technique used to examine how  |
+            | data flows in your system and how  |
+            | it is vulnerable to Spoofing, Tamp |
+            | ering, Repudiation, Information Di |
+            | sclosure, Denial of Service, and E |
+            | levation of Privilege.             |
+   Rollover | BEFORE EXCITING FEATURES: Your pla |
+            | nning convinces the higher-ups of  |
+            | the risks, so they give you more r |
+            | esources. +1 Time                  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Incident response process          |
+      Class | Planning                           |
+      Level | IV                                 |
+       Cost | 1                                  |
+Description | Now that you have a good idea of t |
+            | he threats that face your product, |
+            |  you can react to exploits in an o |
+            | rderly manner.                     |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Learn memory corruption            |
+      Class | Memory                             |
+      Level | I                                  |
+       Cost | 2                                  |
+Description | Your team trains on memory corrupt |
+            | ion vulnerabilities that plague na |
+            | tive languages (C/C++), such as bu |
+            | ffer overflows and format string v |
+            | ulnerabilities.                    |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Enable ASLR                        |
+      Class | Memory                             |
+      Level | II                                 |
+       Cost | 2                                  |
+Description | Your team employs Address Space La |
+            | yout Randomization. This makes mem |
+            | ory corruption vulnerabilities dif |
+            | ficult to exploit, but not impossi |
+            | ble for a determined attacker.     |
+   Rollover | BEFORE BASE FEATURES: You caught s |
+            | ome lazy coders early. +2 Time     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Crash reporting system             |
+      Class | Memory                             |
+      Level | III                                |
+       Cost | 3                                  |
+Description | You make a feature that records wh |
+            | en the product crashes and reports |
+            |  it back to the dev team. These cr |
+            | ashes are often the first sign of  |
+            | a devastating memory corruption vu |
+            | lnerability.                       |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Fuzz testing                       |
+      Class | Memory                             |
+      Level | IV                                 |
+       Cost | 3                                  |
+Description | You employ a massive artificial in |
+            | telligence system to develop poten |
+            | tial exploits and find memory corr |
+            | uption vulnerabilities.            |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Learn basic injection              |
+      Class | Injection                          |
+      Level | I                                  |
+       Cost | 2                                  |
+Description | Your team trains on injection vuln |
+            | erabilities found in many technolo |
+            | gies, such as SQL-injection, Cross |
+            | -site scripting, and OS command in |
+            | jection.                           |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | More injection                     |
+      Class | Injection                          |
+      Level | II                                 |
+       Cost | 1                                  |
+Description | Not sure about this yet            |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | More injection                     |
+      Class | Injection                          |
+      Level | III                                |
+       Cost | 1                                  |
+Description | Not sure about this yet            |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | More injection                     |
+      Class | Injection                          |
+      Level | IV                                 |
+       Cost | 1                                  |
+Description | Not sure about this yet            |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Input validation                   |
+      Class | Design                             |
+      Level | I                                  |
+       Cost | 1                                  |
+Description | You add a subsystem for defensivel |
+            | y checking that user input is not  |
+            | malformed.                         |
+            | Cost is 2 if Base features are alr |
+            | eady developed                     |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Distrustful decomposition          |
+      Class | Design                             |
+      Level | II                                 |
+       Cost | 1                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Card 22                            |
+      Class | Design                             |
+      Level | III                                |
+       Cost | 1                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Card 23                            |
+      Class | Design                             |
+      Level | IV                                 |
+       Cost | 1                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Password improvements              |
+      Class | Auth                               |
+      Level | I                                  |
+       Cost | 1                                  |
+Description | You secure the way your product ha |
+            | ndles passwords, such as hashing w |
+            | ith salt.                          |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Two-factor authentication          |
+      Class | Auth                               |
+      Level | II                                 |
+       Cost | 1                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Authorization                      |
+      Class | Auth                               |
+      Level | III                                |
+       Cost | 3                                  |
+Description | You develop access control feature |
+            | s that limit what authenticated us |
+            | ers can do.                        |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Audit Logs                         |
+      Class | Auth                               |
+      Level | IV                                 |
+       Cost | 2                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Deploy SSL                         |
+      Class | Network                            |
+      Level | I                                  |
+       Cost | 1                                  |
+Description | Enable Secure Sockets Layer to any |
+            |  networked traffic on your applica |
+            | tion.                              |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Card 29                            |
+      Class | Network                            |
+      Level | II                                 |
+       Cost | 1                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Card 30                            |
+      Class | Network                            |
+      Level | III                                |
+       Cost | 1                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+      Title | Card 31                            |
+      Class | Network                            |
+      Level | IV                                 |
+       Cost | 1                                  |
+Description | Description here                   |
+   Rollover |                                    |
+            ╰------------------------------------╯
