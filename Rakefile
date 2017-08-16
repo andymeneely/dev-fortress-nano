@@ -1,7 +1,11 @@
 require 'squib'
 
-task default: [:deck]
+task default: [:actions, :events]
 
-task :deck do
-  load 'deck.rb'
+task :actions do
+  load 'src/actions.rb'
+end
+
+task :events do
+  load 'src/events.rb'
 end

@@ -1,7 +1,9 @@
-My Awesome Game
-===============
+Dev Fortress: Nano Edition
+==========================
 
-Check out my awesome game! 
+You can't do everything. 
+
+An 18-card nanogame edition of the Dev Fortress game.
 
 
 Objective
@@ -16,4 +18,3 @@ Gameplay
 
 Ending the Game
 ---------------
-
